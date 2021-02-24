@@ -25,3 +25,17 @@ There are clear distintions between temperature trends between the two months, p
 ## Summary 
 Two additional queries to gather more weather data for June and December 
 (do precipitation because that will impact surf shop)
+In addiition to analyzing temperature data, it is also important to view summary statistics data for precipitation. It is much less likely for customers to patronize a surf or an ice cream shop when it is pouring rain. 
+
+I ran the following queries to find summary statistics on precipitation in the busy tourist months of June and December. 
+
+results = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all() <br/>
+results = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+
+Once I did that, I got the following results. 
+
+
+<br/> ![june_prcp](june_prcp.png) 
+
+
+<br/> ![dec_prcp](dec_prcp.png) 
