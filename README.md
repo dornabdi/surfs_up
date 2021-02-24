@@ -17,7 +17,7 @@ For this project, I analyzed weather and climate trends trends before opening a 
 
 There are clear distintions between temperature trends between the two months, please view the summary statistics for each month below: 
 
-<br/> ![june_temps](june_temps.png) 
+<br/> ![june_temps](images/june_temps.png) 
 
 
 <br/> ![dec_temps](dec_temps.png) 
