@@ -20,7 +20,7 @@ There are clear distintions between temperature trends between the two months, p
 <br/> ![june_temps](images/june_temps.png) 
 
 
-<br/> ![dec_temps](dec_temps.png) 
+<br/> ![dec_temps](images/dec_temps.png) 
 
 ## Summary 
 Two additional queries to gather more weather data for June and December 
@@ -35,7 +35,7 @@ results = session.query(Measurement.date, Measurement.prcp).filter(extract('mont
 Once I did that, I got the following results. 
 
 
-<br/> ![june_prcp](june_prcp.png) 
+<br/> ![june_prcp](images/june_prcp.png) 
 
 
-<br/> ![dec_prcp](dec_prcp.png) 
+<br/> ![dec_prcp](images/dec_prcp.png) 
